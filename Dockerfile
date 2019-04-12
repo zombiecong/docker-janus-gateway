@@ -8,7 +8,7 @@ RUN apt-get update -y \
 
 RUN apt-get install -y \
     build-essential \
-    libconfig \
+    libconfig-dev \
     libmicrohttpd-dev \
     libjansson-dev \
     libnice-dev \
